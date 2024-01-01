@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500&display=swap');
+*{
+    padding: 0%;
+    margin: 5px;
+}
+body{
+    background-color:    #d4d3d3
+    ;
+    width: 85%;
+}
+header.cabeceraPrincipal{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    width: 85%;
+    align-items: stretch;
+    font-size: 20px;
+    margin: auto;
+}
+nav.Servicio{
+    background-color:   #888a94;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    align-items: center;
+    padding: 0%;
+    margin: auto;
+    font-size: 15px;
+}
+aside.iniciar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.form-register h2{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-size: 150%;
+    padding: 0%;
+    margin: auto;
+    background-color: #888a94;
+    color: black;
+    align-items: stretch;
+    padding: 10px;
+  }
+input.controls{
+    width: 85%;
+    display:flex;
+    background-color: #c7c8cf;
+    font-size: 20px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: stretch;
+    border-color: black;
+    margin: auto;
+    border-style: groove;
+}
+input.botons{
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+    width: 1%;
+    height: 5%;
+    margin: auto;
+    width: 10%;
+    font-size: 10px;
+    display: flex;
+    background-color: #888a94;
+    border-color: black;
+    border-radius: auto;
+    border-style:outset;
+}
+section.nuevo{
+    font-size: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+    text-decoration:underline;
+    
+  }
+footer.footer{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-size: 85%;
+    padding: 0%;
+    margin: auto;
+    height: 5%;
+    background-color: #888a94;
+    color: black;
+}
+/*Registros.html*/
+section.form-register h3{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-size: 100%;
+    padding: 0%;
+    margin: auto;
+    background-color: #888a94;
+    color: black;
+    align-items: center;
+    padding: 5px;
+    height: 5%; 
+  }
+  /*Credenciales*/
+  section.credenciales h2{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-size: 200%;
+    padding: 0%;
+    margin: auto;
+    background-color: #888a94;
+    color: black;
+    align-items: center;
+    padding: 5px;
+    height: 5%;   
+}
+input.controls, p{
+    width: 85%;
+    display:flex;
+    padding: 5px;
+    margin: auto;
+    text-align: left;
+}
+/*Contraseña*/
+section.contrasena h2{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-size: 200%;
+    padding: 0%;
+    margin: auto;
+    background-color: #888a94;
+    color: black;
+    align-items: center;
+    padding: 5px;
+    height: 5%;   
+}
+/*Servicios*/
+section.Servicios{
+    background-color: blue;
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 140%;
+    border-style:double;
+}
+section.Servicios a{
+    color: black;
+    padding: auto;
+    text-decoration: none;
+}
+section.Servicios a:hover{
+    color: black;
+    border-bottom: 3px solid black;
+}
+section.sliderPrincipal{
+    width: 85%;
+    margin: auto;
+}
+section.sliderPrincipal img{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    padding: auto;
+}
+/*Solicitud*/
+section.form-register h2{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    font-size: 150%;
+    padding: 0%;
+    margin: auto;
+    background-color: #888a94;
+    color: black;
+    align-items: stretch;
+    padding: 10px;   
+}
+/*Turno*/
+
+section.gestion{
+    background-color: rgb(222, 222, 227);
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 100%;
+    border-style:double;
+    align-items: center;
+}
+input.botons{
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.6%;
+    width: 1%;
+    height: 5%;
+    margin: auto;
+    width: 10%;
+    font-size: 10px;
+    display: flex;
+    background-color: #888a94;
+    border-color: black;
+    border-radius: auto;
+    border-style:outset;
+}
+/*Repuestos*/
+/*Orden*/
+
+section.form-register p{
+    width: 85%;
+    display:flex;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+}
+section.gestion{
+    background-color: rgb(222, 222, 227);
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 120%;
+    border-style:ridge;
+    align-items: baseline;
+}
+/*Informe*/
+/*Documentacion*/
+/*Territorio*/
+/*Vehiculos*/
+section.form-register p{
+    width: 85%;
+    display:flex;
+    padding: 20px;
+    margin: auto;
+    text-align: left;
+}
+/*Personal*/
+
+
