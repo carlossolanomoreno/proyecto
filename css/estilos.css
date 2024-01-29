@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Noto+Serif:wght@400;600&display=swap');
+
 *{
     padding: 0%;
-    margin: 5px;
+    margin: 1px;
 }
 body{
-    background-color:    #d4d3d3
-    ;
-    width: 85%;
+    background-color:    #d4d3d3;
+    width: 100%;
 }
 header.cabeceraPrincipal{
     display: flex;
@@ -26,6 +26,7 @@ nav.Servicio{
     padding: 0%;
     margin: auto;
     font-size: 15px;
+    text-align: center;
 }
 aside.iniciar{
     display: flex;
@@ -56,21 +57,6 @@ input.controls{
     margin: auto;
     border-style: groove;
 }
-input.botons{
-    justify-content: center;
-    align-items: center;
-    padding: 0.5%;
-    width: 1%;
-    height: 5%;
-    margin: auto;
-    width: 10%;
-    font-size: 10px;
-    display: flex;
-    background-color: #888a94;
-    border-color: black;
-    border-radius: auto;
-    border-style:outset;
-}
 section.nuevo{
     font-size: 20px;
     margin-bottom: 20px;
@@ -79,8 +65,7 @@ section.nuevo{
     display: flex;
     flex-direction: column; 
     overflow: hidden;
-    text-decoration:underline;
-    
+    text-decoration:underline;   
   }
 footer.footer{
     display: flex;
@@ -108,28 +93,8 @@ section.form-register h3{
     height: 5%; 
   }
   /*Credenciales*/
-  section.credenciales h2{
-    display: flex;
-    justify-content: center;
-    width: 85%;
-    font-size: 200%;
-    padding: 0%;
-    margin: auto;
-    background-color: #888a94;
-    color: black;
-    align-items: center;
-    padding: 5px;
-    height: 5%;   
-}
-input.controls, p{
-    width: 85%;
-    display:flex;
-    padding: 5px;
-    margin: auto;
-    text-align: left;
-}
-/*Contraseña*/
-section.contrasena h2{
+  /*Contraseña*/
+  section.titulo h2{
     display: flex;
     justify-content: center;
     width: 85%;
@@ -143,53 +108,112 @@ section.contrasena h2{
     height: 5%;   
 }
 /*Servicios*/
-section.Servicios{
-    background-color: blue;
-    width: 85%;
-    margin: auto;
-    text-align: center;
-    padding: auto;
-    display: flex;
+section.actividades{
+    margin: 300px 115px;
+    text-align:center;
+    display:grid;
     justify-content: space-between;
-    font-size: 140%;
-    border-style:double;
+    font-size: 100%;
+    font-weight: bold;
+    align-items: stretch;
+    height: auto;
+    letter-spacing: 0.5px;
+    margin-bottom: auto;
 }
-section.Servicios a{
+section.actividades a{
     color: black;
-    padding: auto;
-    text-decoration: none;
+    padding: 0.5%;
+    border-style: outset;   
+    background-color: #888a94;
+    width: 192px;
 }
-section.Servicios a:hover{
+section.actividades a:hover{
+    color: yellow;
+}
+section.Register h2{
+    display:grid;
+    justify-content:left;
+    width: 12.8%;
+    font-size: 100%;
+    margin: 0px 7.5%;
+    background-color: blue;
     color: black;
-    border-bottom: 3px solid black;
+    align-items:center;
+    padding: auto;   
+    border-style:groove;
+    border-color: black;
+    text-align: center;
+    height: auto;
+    position: relative;
+    margin-bottom: -19.6%;
+
 }
 section.sliderPrincipal{
     width: 85%;
     margin: auto;
 }
 section.sliderPrincipal img{
-    width: 100%;
-    margin: auto;
+    width: 84.5%;
+    margin-left: 203px;
     justify-content: center;
     align-items: center;
-    height: 320px;
-    padding: auto;
+    height: 300px;
+    margin-right: 10px;
+}
+section.salir{
+    width: 85%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 100%;
+    font-weight: bold;
+    align-items:center;
+    letter-spacing: 0.5px;
+    box-sizing: content-box;  
+    
+}
+section.salir a{
+    color: black;
+    border-style: outset;   
+    padding: 0.5%;
+    margin: 0px 8.8%;
+    background-color: blue;
+    border-color: black;
+    height: 20px;
+    width: 184px;
+    text-align: center;
+    margin-bottom: -64.4%;
+}
+section.salir a:hover{
+    color: yellow;   
 }
 /*Solicitud*/
-section.form-register h2{
-    display: flex;
-    justify-content: center;
+
+section.opcion{
     width: 85%;
-    font-size: 150%;
-    padding: 0%;
-    margin: auto;
-    background-color: #888a94;
-    color: black;
+    background-color: none;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 100%;
+    font-weight: bold;
     align-items: stretch;
-    padding: 10px;   
+    height: auto;
+    letter-spacing: 0.5px;
+    box-sizing: content-box;  
+    background: #888a94; font-family: sans-serif;
+}
+section.opcion a{
+    color: black;
+    border-style: outset;   
+    padding: 1%;
+    margin: auto;
+    background-color: blue;
+    border-color: black;
+}
+section.opcion a:hover{
+    color: yellow;   
 }
 /*Turno*/
-
 section.gestion{
     background-color: rgb(222, 222, 227);
     width: 85%;
@@ -202,31 +226,70 @@ section.gestion{
     border-style:double;
     align-items: center;
 }
-input.botons{
-    justify-content: space-evenly;
+input.cuadro{
+    justify-content: center;
     align-items: center;
-    padding: 0.6%;
+    padding: 10px;
     width: 1%;
-    height: 5%;
+    height: auto;
     margin: auto;
     width: 10%;
-    font-size: 10px;
+    font-size: 15px;
     display: flex;
     background-color: #888a94;
     border-color: black;
-    border-radius: auto;
+    border-radius:none;
     border-style:outset;
+    font-weight: bold;
+    text-align: center;
+}
+section.uno{
+    width: 85; 
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    box-sizing: content-box;
+  }
+section.uno a{
+    color: black;
+    border-style: outset;
+    padding: 5px;
+    margin: 10%;
+    background-color: #888a94;
+    border-color: black;
+}
+section.uno a:hover{
+    color: white;
 }
 /*Repuestos*/
+section.repuesto{
+    width: 85; 
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    box-sizing: content-box;
+  }
+section.repuesto a{
+    color: black;
+    border-style: outset;
+    padding: 0.5%;
+    margin: 5%;
+    background-color: #888a94;
+    border-color: black;
+}
+section.repuesto a:hover{
+    color: white;
+}
 /*Orden*/
 
-section.form-register p{
-    width: 85%;
-    display:flex;
-    padding: 20px;
-    margin: auto;
-    text-align: left;
-}
 section.gestion{
     background-color: rgb(222, 222, 227);
     width: 85%;
@@ -238,6 +301,28 @@ section.gestion{
     font-size: 120%;
     border-style:ridge;
     align-items: baseline;
+}
+section.botons{
+    width: 85; 
+    text-align: center;
+    justify-content: flex-start;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    height: auto;
+    letter-spacing: 0.5px;
+    box-sizing: content-box;
+  }
+input.botons{
+    color: black;
+    border-style: outset;
+    padding: 1%;
+    margin: auto;
+    background-color: #888a94;
+    border-color: black;
+}
+section.uno a:hover{
+    color: white;
 }
 /*Informe*/
 /*Documentacion*/
@@ -251,5 +336,3 @@ section.form-register p{
     text-align: left;
 }
 /*Personal*/
-
-

@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complexivo</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Menu Dashboard</title>
+    <link rel="stylesheet" href="css/servis.css">
+    <!-- CUSTOM JS -->
+    <script src="./js/app.js" defer></script>
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
+    <!--Cabecera-->
     <header class="cabeceraPrincipal">
-        <img src="images/escudo.png" alt="escudo">
-        <img src="images/logo.png"   alt="logo">
-        <img src="images/camioneta.png" alt="camioneta">
+        <img src="images/logo.png" alt="escudo">
+        <section class="menuRedesSociales">
+            <img src="images/facebook.png"   alt="redF">
+            <img src="images/instagram.png" alt="redI">
+            <img src="images/Twitter.png" alt="redT">
+        </section>
     </header>
-    <nav class="Servicio">
-        <h1>SISTEMA DE AUTOMATIZACION DE MANTENIMIENTO VEHICULAR</h1>
-    </nav>
+    <!--Aside-->
     <aside class="iniciar">
         <img src="images/repuestos.png" alt="inicio">
     </aside>
@@ -26,19 +33,90 @@
         <input class="controls" type="text" name="correo" id="correo" placeholder="Marca:">
         <br>
         <input class="controls" type="text" name="correo" id="correo" placeholder="Modelo:">
+    </section>
+    <section class="repuesto">
         <br>
-        <input class="botons" type="submit" value="Ingresar">
-        <br>
-        <input class="botons" type="submit" value="Modificar">
-        <br>
-        <input class="botons" type="submit" value="Eliminar">
-        <br>
-        <input class="botons" type="submit" value="Guardar">
-        <br>
+        <a href="#">Ingresar</a>      
+        <a href="#">Modificar</a> 
+        <a href="#">Eliminar</a> 
+        <a href="#">Guardar</a>   
+    </section>
+    <section class="menu-dashboard">
+        <!--Top Menu-->
+        <div class="top-menu">
+            <div class="logo">
+                <img src="images/paquito.jpg" alt="Solicitud">
+                <span>Servicios</span>
+            </div>
+            <div class="toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+
+        <!--Input search-->
+        <div class="input-search">
+            <i class='bx bx-search' ></i>
+            <input type="text"class="input"placeholder="buscar">
+        </div>
+        <!--Menu-->
+        <div class="menu">
+            <div class="enlace">
+                <i class="bx bx-git-pull-request"></i>
+                <span>Ingresar Solicitud</span>
+             </div>
+            <div class="enlace">
+                <i class="bx bx-calendar-event"></i>
+                <span>Turnos para Mantenimiento</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-loader"></i>
+                <span>Repuestos</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-detail"></i>
+                <span>Generar Orden</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-show-alt"></i>
+                <span>Próximo Mantenimiento</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-wrench"></i>
+                <span>Mantenimientos</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-car"></i>
+                <span>Vehículos</span>
+            </div>
+             <div class="enlace">
+                <i class="bx bx-building-house"></i>
+                <span>Dependencias Policiales</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-male-female"></i>
+                <span>Personal Policial</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-bell-minus"></i>
+                <span>Notificaciones</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-key"></i>
+                <span>Configuración</span>
+            </div>
+            <div class="enlace">
+                <i class="bx bx-lock-alt"></i>
+                <span>Cerrar Sesión</span>
+            </div>
+        </div>
     </section>
     <footer class="footer">
-        <h4>POLICIA NACIONAL DEL ECUADOR</h4>
+        <h3>Policía Nacional del Ecuador</h3>
+        <br>
+        <p>Universidad Técnica prticular de Loja</p>
+        <br>
+        <p>Tel: 0989411936</p>
     </footer>
-    
+        
 </body>
 </html>
